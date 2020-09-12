@@ -1,0 +1,27 @@
+{
+    "name": "burger",
+    "version": "1.0.0",
+    "description": "Eat-Da-Burger",
+    "main": "burger.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JohnGlendening/burger.git"
+    },
+    "keywords": [
+        "burger"
+    ],
+    "author": "John Glendening",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JohnGlendening/burger/issues"
+    },
+    "homepage": "https://github.com/JohnGlendening/burger#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.1.0",
+        "mysql": "^2.18.1"
+    }
+}
