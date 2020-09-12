@@ -5,7 +5,7 @@ var connection;
 // var connection = mysql.createConnection({ // Set connection parameters
 //   host: "localhost",
 //   user: "root",
-//   password: "0118488320613",
+//   password: "jensen",
 //   database: "burgers_db"
 // });
 
@@ -15,7 +15,7 @@ if(process.env.JAWSDB_URL) {
   connection = mysql.createConnection({ // Set local connection parameters
     host: "localhost",
     user: "root",
-    password: "0118488320613",
+    password: "jensen",
     database: "burgers_db"
     });
 };
